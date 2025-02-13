@@ -188,7 +188,110 @@ height: 100px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.433),rgba(0, 0, 0, 0.151)),url(/images/isl.avif);
 
 }
+/* Packages cards */
+.packages-cards{
+  box-shadow: 12px 12px 12px rgba(139, 136, 136, 0.288);
+    border-radius: 10px;
+    width: 27%;
+    min-height:77vh;
+}
 
+.description-image{
+    width: 99%;
+    
+    background-size: cover;
+    background-position: center center;
+    height: 35vh;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.img1{
+    background-image:url(/images/pakcage-1.avif);
+}
+.img2{
+    background-image:url(/images/package-2.avif);
+}
+.img3{
+    background-image:url(/images/package-3.avif);
+}
+/* .packages-cards>img{
+    width: 90%;
+    height: 35vh;
+    border: 1px dotted ;
+} */
+.packege-Description{
+ 
+    width: 100%;
+    height: 35vh;
+    padding: 5px 10px;
+    overflow: hidden;
+}
+.packages>h1{
+    text-align: center;
+    margin: 10px auto;
+    font-size: 35px;
+}
+.packages-cards>button{
+    width: 100%;
+    border-radius: 0;
+    font-size: 20px;
+    color: #e4e3e3;
+    font-weight: bold;
+  
+}
+/* Services */
+.Services{
+    width: 100%;
+    background: #bdbdbd3d;
+    text-align: center;
+}
+.Services>h1{
+  
+    font-size: 50px;
+}
+.Services>h1>span{
+    color: #0994c2;
+}
+.S-box{
+    width:80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-evenly;
+    min-height: 30vh;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.services-box{
+    width: 150px;
+    border: 1px solid #0e3744;
+    text-align: center;
+   cursor: pointer;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgb(71, 228, 71);
+    color: #0e3744;
+}
+.cta-3
+{
+    padding: 10px;
+    background: transparent;
+    border:2px solid #0994c2;
+    font-size: 15px;
+    color: #0994c2;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.5s;
+    border-radius:5px ;
+    margin: 15px 0;
+}
+.cta-3:hover{
+    background: #0994c2;
+    color: white;
+}
 /* Responsiveness */
 @media (max-width:480px){
 
@@ -231,5 +334,15 @@ justify-content: space-between;
 .card{
     /* height: 250px; */
     margin: 10px 0;
+}
+.packages-cards {
+    width: 90%;
+    height: 82vh;
+    margin: 10px auto;
+
+    overflow: hidden;
+}
+.services-box{
+    margin: 10px auto;
 }
 }
