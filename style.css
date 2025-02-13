@@ -224,7 +224,7 @@ height: 100px;
  
     width: 100%;
     height: 35vh;
-    padding: 5px 10px;
+    padding:1% 5%;
     overflow: hidden;
 }
 .packages>h1{
@@ -247,7 +247,6 @@ height: 100px;
     text-align: center;
 }
 .Services>h1{
-  
     font-size: 50px;
 }
 .Services>h1>span{
@@ -291,6 +290,43 @@ height: 100px;
 .cta-3:hover{
     background: #0994c2;
     color: white;
+}
+/* Testonomial secttion */
+.testonominals{
+    width: 90%;
+    text-align: center;
+
+}
+.testonominals>h2{
+    font-size: 30px;
+
+}
+.testonominals>.box{
+    flex-direction: column;
+}
+.clients-card{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(224, 212, 212);
+    box-shadow: 15px 20px 20px whitesmoke;
+    margin: 10px auto; 
+    height:30vh;
+    cursor: pointer;
+    text-align: left;
+    padding: 1% 5%;
+
+}
+/* .testonominals>button{
+   
+} */
+.clients-card>img{
+    width: 200px;
+    height: 200px;
+    border-radius:50% ;
+    margin: 0 1 5px; 
+}
+.rating>i{
+    color: orange;
 }
 /* Responsiveness */
 @media (max-width:480px){
@@ -344,5 +380,11 @@ justify-content: space-between;
 }
 .services-box{
     margin: 10px auto;
+}
+.clients-card{
+    flex-direction: column;
+    text-align: center;
+    height:auto;
+
 }
 }
