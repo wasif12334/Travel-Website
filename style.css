@@ -572,7 +572,13 @@ justify-content: space-between;
 .booking{
     flex-direction: column;
 }
+#bookingform{
+    width: 100%;
+}
+.map{
+    width: 100%;
+}
 .map>iframe{
-   display: none;
+   width: 100%;
 }
 }
