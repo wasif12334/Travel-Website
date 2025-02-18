@@ -36,28 +36,57 @@
     </nav>
     <main>
         <section class="booking section">
-            <form action="" id="form">
+            <form action="" id="bookingform">
                <h1>Book My Trip</h1>
                <p>Offer a quick and easy way to book ticket online</p>
-               <label for="">Flight<input type="radio" name="Flight" id=""></label>
-               <label for="">Bus<input type="radio" name="Bus" id=""></label>
-               <label for="">Train<input type="radio" name="Train" id=""></label><br>
+             <div class="radio">
+                   <label for="">Flight<input type="radio" name="Flight" id=""></label>
+                   <label for="">Bus<input type="radio" name="Bus" id=""></label>
+                   <label for="">Train<input type="radio" name="Train" id=""></label>
+             </div><br>
                <label><input type="text" placeholder="Enter your Name"></label>
                <label><input type="datetime-local" placeholder="Enter  date"></label>
-               <select name="Destination city" value="Destination city" placeholder="Destination city" id="">Destination city
-                   <option value="">Destination city </option>
-                   <option value="">Hunza </option>
-                   <option value="">Skardu </option>
-                   <option value="">Naran Kaghan </option>
-                   <option value="">Kashmir </option>
-                   <option value="">Swat Valley </option>
-                   <option value="">Neelum Valley  </option>
-                   <option value="">Murree & Galiyat </option>
-                   <option value="">Lahore </option>
-                   <option value=""> Mohenjo-Daro   </option>
-                   <option value="">Gwadar & Kund Malir Beach </option>
-                   
-            </select>
+             <div>
+                   <select name="Destination city" value="Destination city" placeholder="Destination city" id="">Destination city
+                       <option value="">Destination city </option>
+                       <option value="">Hunza </option>
+                       <option value="">Skardu </option>
+                       <option value="">Naran Kaghan </option>
+                       <option value="">Kashmir </option>
+                       <option value="">Swat Valley </option>
+                       <option value="">Neelum Valley  </option>
+                       <option value="">Murree & Galiyat </option>
+                       <option value="">Lahore </option>
+                       <option value=""> Mohenjo-Daro   </option>
+                       <option value="">Gwadar & Kund Malir Beach </option>
+                       
+                </select>
+                <select name="Departure city" value="Departure city" placeholder="Departure city" id="">Departure city
+                    <option value="">Departure city </option>
+                    <option value="">Hunza </option>
+                    <option value="">Skardu </option>
+                    <option value="">Naran Kaghan </option>
+                    <option value="">Kashmir </option>
+                    <option value="">Swat Valley </option>
+                    <option value="">Neelum Valley  </option>
+                    <option value="">Murree & Galiyat </option>
+                    <option value="">Lahore </option>
+                    <option value=""> Mohenjo-Daro   </option>
+                    <option value="">Gwadar & Kund Malir Beach </option>
+                    
+             </select>
+             </div>
+         <div>
+             <label><input type="number" name="number of travelers" placeholder="Enter No of Travelers"></label>
+             <select name="TravelClass " value="TravelClass" placeholder="TravelClass" id="">TravelClass
+                <option value="">TravelClass </option>
+                <option value="">Economy </option>
+                <option value="">Business </option>
+                <option value="">First Class </option>
+                     
+         </select>
+         </div>
+      <input type="button" value="BOOK" class="cta-3">
             </form>
             <div class="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7235.6536397986965!2d67.0426504!3d24.9379689!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb339daa98b0ab7%3A0x3954f1c8d106349c!2sTHE%20TRAVELISTA%20TRAVELS%20%7C%20Karachi%20%7C%20Pakistan%20Travels%20%26%20Tours%20Packages!5e0!3m2!1sen!2s!4v1739520561768!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
