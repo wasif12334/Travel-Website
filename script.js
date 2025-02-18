@@ -1,6 +1,9 @@
-let cardDistination = document.querySelectorAll('.card')
-cardDistination.forEach(card => {
-    card.addEventListener('click',()=>{
-        console.log(card.innerHTML);
-    })
-});
+let bookBtn= document.querySelectorAll('.cta-2')
+
+bookBtn.forEach((btn)=>{
+btn.addEventListener('click',()=>{
+window.open("bookingpage.html",)
+
+})
+})
+
